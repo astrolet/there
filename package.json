@@ -1,0 +1,27 @@
+{ "name": "there"
+, "description": "meanwhile call it stuff"
+, "keywords": [ "astronomy", "astrology", "localization", "data" ]
+, "version": "0.0.0"
+, "homepage": "http://astrolin.com/to/there"
+, "repository":
+  { "type": "git"
+  , "url": "git://github.com/astrolet/there.git"
+  }
+, "bugs":
+  { "mail": "support@astrolet.net"
+  , "url" : "https://www.pivotaltracker.com/projects/203533"
+  }
+, "author": "Orlin M Bozhinov <orlin@astrolet.net> (http://soundsapiens.com)"
+, "contributors": []
+, "directories": {}
+, "dependencies": { "coffee-script": "*" }
+, "devDependencies": {}
+, "scripts": {}
+, "os" : [ "!win32" ]
+, "engines" : { "node" : "0.8.x", "npm": "1.1.x" }
+, "licenses":
+  [ { "type": "Unlicense"
+    , "url" : "http://unlicense.org/"
+    }
+  ]
+}
