@@ -1,5 +1,6 @@
 # there -- meanwhile call it stuff
 
+
 ## WHAT
 
     to find
@@ -9,4 +10,11 @@
     that matters
     out there
     for us
+
+
+## LAW
+
+This is free and unencumbered public domain software.
+For more information, see <http://unlicense.org/> or the accompanying
+[UNLICENSE](http://astrolet.github.com/there/UNLICENSE.html) file.
 
