@@ -13,7 +13,8 @@
   }
 , "author": "Orlin M Bozhinov <orlin@astrolet.net> (http://soundsapiens.com)"
 , "contributors": []
-, "directories": {}
+, "directories": { "lib": "./lib" }
+, "main": "index"
 , "dependencies": { "coffee-script": "*" }
 , "devDependencies": {}
 , "scripts": {}
