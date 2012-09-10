@@ -1,3 +1,70 @@
-<!DOCTYPE html>  <html> <head>   <title>care.coffee</title>   <meta http-equiv="content-type" content="text/html; charset=UTF-8">   <link rel="stylesheet" media="all" href="docco.css" /> </head> <body>   <div id="container">     <div id="background"></div>            <div id="jump_to">         Jump To &hellip;         <div id="jump_wrapper">           <div id="jump_page">                                           <a class="source" href="care.html">                 care.coffee               </a>                                           <a class="source" href="more.html">                 more.coffee               </a>                        </div>         </div>       </div>          <table cellpadding="0" cellspacing="0">       <thead>         <tr>           <th class="docs">             <h1>               care.coffee             </h1>           </th>           <th class="code">           </th>         </tr>       </thead>       <tbody>                               <tr id="section-1">             <td class="docs">               <div class="pilwrap">                 <a class="pilcrow" href="#section-1">&#182;</a>               </div>                            </td>             <td class="code">               <div class="highlight"><pre><span class="nv">module.exports = </span><span class="p">{}</span>
+<!DOCTYPE html>  <html> <head>   <title>care.coffee</title>   <meta http-equiv="content-type" content="text/html; charset=UTF-8">   <link rel="stylesheet" media="all" href="docco.css" /> </head> <body>   <div id="container">     <div id="background"></div>            <div id="jump_to">         Jump To &hellip;         <div id="jump_wrapper">           <div id="jump_page">                                           <a class="source" href="care.html">                 care.coffee               </a>                                           <a class="source" href="more.html">                 more.coffee               </a>                        </div>         </div>       </div>          <table cellpadding="0" cellspacing="0">       <thead>         <tr>           <th class="docs">             <h1>               care.coffee             </h1>           </th>           <th class="code">           </th>         </tr>       </thead>       <tbody>                               <tr id="section-1">             <td class="docs">               <div class="pilwrap">                 <a class="pilcrow" href="#section-1">&#182;</a>               </div>               <p>Used by lin's <code>Ensemble</code> for localization.
+See <code>polyglot</code> from upon for details about the data format.</p>             </td>             <td class="code">               <div class="highlight"><pre><span class="nv">module.exports =</span>
+
+  <span class="s2">&quot;MO&quot;</span><span class="o">:</span>
+    <span class="nv">name:</span>
+      <span class="nv">en: </span><span class="p">[</span> <span class="s2">&quot;Selene&quot;</span><span class="p">,</span>         <span class="s2">&quot;Moon&quot;</span> <span class="p">]</span>
+      <span class="nv">el: </span><span class="p">[</span> <span class="kc">true</span><span class="p">,</span>             <span class="s2">&quot;Σελήνη&quot;</span> <span class="p">]</span>
+      <span class="nv">bg: </span><span class="p">[</span> <span class="s2">&quot;Селена&quot;</span><span class="p">,</span>         <span class="s2">&quot;Луна&quot;</span> <span class="p">]</span>
+  <span class="s2">&quot;ME&quot;</span><span class="o">:</span>
+    <span class="nv">name:</span>
+      <span class="nv">en: </span><span class="p">[</span> <span class="s2">&quot;Hermes&quot;</span><span class="p">,</span>         <span class="s2">&quot;Mercury&quot;</span> <span class="p">]</span>
+      <span class="nv">el: </span><span class="p">[</span> <span class="kc">true</span><span class="p">,</span>             <span class="s2">&quot;Ἑρμῆς&quot;</span> <span class="p">]</span>
+      <span class="nv">bg: </span><span class="p">[</span> <span class="s2">&quot;Хермес&quot;</span><span class="p">,</span>         <span class="s2">&quot;Меркурий&quot;</span> <span class="p">]</span>
+  <span class="s2">&quot;VE&quot;</span><span class="o">:</span>
+    <span class="nv">name:</span>
+      <span class="nv">en: </span><span class="p">[</span> <span class="s2">&quot;Aphrodite&quot;</span><span class="p">,</span>      <span class="s2">&quot;Venus&quot;</span> <span class="p">]</span>
+      <span class="nv">el: </span><span class="p">[</span> <span class="kc">true</span><span class="p">,</span>             <span class="s2">&quot;Ἀφροδίτη&quot;</span> <span class="p">]</span>
+      <span class="nv">bg: </span><span class="p">[</span> <span class="s2">&quot;Афродита&quot;</span><span class="p">,</span>       <span class="s2">&quot;Венера&quot;</span> <span class="p">]</span>
+  <span class="s2">&quot;SO&quot;</span><span class="o">:</span>
+    <span class="nv">name:</span>
+      <span class="nv">en: </span><span class="p">[</span> <span class="s2">&quot;Helios&quot;</span><span class="p">,</span>         <span class="s2">&quot;Sun&quot;</span> <span class="p">]</span>
+      <span class="nv">el: </span><span class="p">[</span> <span class="kc">true</span><span class="p">,</span>             <span class="s2">&quot;Ἥλιος&quot;</span> <span class="p">]</span>
+      <span class="nv">bg: </span><span class="p">[</span> <span class="s2">&quot;Хелиос&quot;</span><span class="p">,</span>         <span class="s2">&quot;Слънце&quot;</span> <span class="p">]</span>
+  <span class="s2">&quot;MA&quot;</span><span class="o">:</span>
+    <span class="nv">name:</span>
+      <span class="nv">en: </span><span class="p">[</span> <span class="s2">&quot;Ares&quot;</span><span class="p">,</span>           <span class="s2">&quot;Mars&quot;</span> <span class="p">]</span>
+      <span class="nv">el: </span><span class="p">[</span> <span class="kc">true</span><span class="p">,</span>             <span class="s2">&quot;Ἄρης&quot;</span> <span class="p">]</span>
+      <span class="nv">bg: </span><span class="p">[</span> <span class="s2">&quot;Арес&quot;</span><span class="p">,</span>           <span class="s2">&quot;Марс&quot;</span> <span class="p">]</span>
+  <span class="s2">&quot;JU&quot;</span><span class="o">:</span>
+    <span class="nv">name:</span>
+      <span class="nv">en: </span><span class="p">[</span> <span class="s2">&quot;Zeus&quot;</span><span class="p">,</span>           <span class="s2">&quot;Jupiter&quot;</span> <span class="p">]</span>
+      <span class="nv">el: </span><span class="p">[</span> <span class="kc">true</span><span class="p">,</span>             <span class="s2">&quot;Ζεύς&quot;</span> <span class="p">]</span>
+      <span class="nv">bg: </span><span class="p">[</span> <span class="s2">&quot;Зевс&quot;</span><span class="p">,</span>           <span class="s2">&quot;Юпитер&quot;</span> <span class="p">]</span>
+  <span class="s2">&quot;SA&quot;</span><span class="o">:</span>
+    <span class="nv">name:</span>
+      <span class="nv">en: </span><span class="p">[</span> <span class="s2">&quot;Kronos&quot;</span><span class="p">,</span>         <span class="s2">&quot;Saturn&quot;</span> <span class="p">]</span>
+      <span class="nv">el: </span><span class="p">[</span> <span class="kc">true</span><span class="p">,</span>             <span class="s2">&quot;Κρόνος&quot;</span> <span class="p">]</span>
+      <span class="nv">bg: </span><span class="p">[</span> <span class="s2">&quot;Кронос&quot;</span><span class="p">,</span>         <span class="s2">&quot;Сатурн&quot;</span> <span class="p">]</span>
+
+  <span class="s2">&quot;NN&quot;</span><span class="o">:</span>
+    <span class="nv">name:</span>
+      <span class="nv">en: </span><span class="p">[</span> <span class="kc">true</span><span class="p">,</span>             <span class="s2">&quot;North Node&quot;</span> <span class="p">]</span>
+  <span class="s2">&quot;SN&quot;</span><span class="o">:</span>
+    <span class="nv">name:</span>
+      <span class="nv">en: </span><span class="p">[</span> <span class="kc">true</span><span class="p">,</span>             <span class="s2">&quot;South Node&quot;</span> <span class="p">]</span>
+
+  <span class="s2">&quot;AS&quot;</span><span class="o">:</span>
+    <span class="nv">name:</span>
+      <span class="nv">en: </span><span class="p">[</span> <span class="kc">false</span><span class="p">,</span>             <span class="s2">&quot;Ascendant&quot;</span> <span class="p">]</span>
+  <span class="s2">&quot;MC&quot;</span><span class="o">:</span>
+    <span class="nv">name:</span>
+      <span class="nv">en: </span><span class="p">[</span> <span class="kc">false</span><span class="p">,</span>             <span class="s2">&quot;Midheaven&quot;</span> <span class="p">]</span>
+  <span class="s2">&quot;DS&quot;</span><span class="o">:</span>
+    <span class="nv">name:</span>
+      <span class="nv">en: </span><span class="p">[</span> <span class="kc">false</span><span class="p">,</span>             <span class="s2">&quot;Descendant&quot;</span> <span class="p">]</span>
+  <span class="s2">&quot;IC&quot;</span><span class="o">:</span>
+    <span class="nv">name:</span>
+      <span class="nv">en: </span><span class="p">[</span> <span class="kc">false</span><span class="p">,</span>             <span class="s2">&quot;Imum Coeli&quot;</span> <span class="p">]</span>
+
+  <span class="s2">&quot;UR&quot;</span><span class="o">:</span>
+    <span class="nv">name:</span>
+      <span class="nv">en: </span><span class="p">[</span> <span class="kc">false</span><span class="p">,</span>            <span class="s2">&quot;Uranus&quot;</span> <span class="p">]</span>
+  <span class="s2">&quot;NE&quot;</span><span class="o">:</span>
+    <span class="nv">name:</span>
+      <span class="nv">en: </span><span class="p">[</span> <span class="kc">false</span><span class="p">,</span>            <span class="s2">&quot;Neptune&quot;</span> <span class="p">]</span>
+  <span class="s2">&quot;PL&quot;</span><span class="o">:</span>
+    <span class="nv">name:</span>
+      <span class="nv">en: </span><span class="p">[</span> <span class="kc">false</span><span class="p">,</span>            <span class="s2">&quot;Pluto&quot;</span> <span class="p">]</span>
 
 </pre></div>             </td>           </tr>                </tbody>     </table>   </div> </body> </html> 
