@@ -1,7 +1,8 @@
-# Additional data for lin's Ensemble.
+# Additional data for [lin](http://astrolet.github.com/lin)'s
+# [`Ensemble`](http://astrolet.github.com/lin/annotations/ensemble.html).
 # The English names will be used if no other words are found in `./care.coffee`.
 
-# Any of the init categories can take more data.
+# Any of the `@init` categories can take more data.
 # However check what columns are expected and in what order.
 more = further: []
 
