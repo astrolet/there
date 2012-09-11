@@ -1,7 +1,7 @@
 { "name": "there"
 , "description": "meanwhile call it stuff"
 , "keywords": [ "astronomy", "astrology", "localization", "data" ]
-, "version": "0.0.0"
+, "version": "0.0.1"
 , "homepage": "http://astrolin.com/to/there"
 , "repository":
   { "type": "git"
