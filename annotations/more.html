@@ -2,17 +2,22 @@
 <a href="http://astrolet.github.com/lin/annotations/ensemble.html"><code>Ensemble</code></a>.
 The English names will be used if no other words are found in <code>./care.coffee</code>.</p>             </td>             <td class="code">               <div class="highlight"><pre></pre></div>             </td>           </tr>                               <tr id="section-2">             <td class="docs">               <div class="pilwrap">                 <a class="pilcrow" href="#section-2">&#182;</a>               </div>               <p>Any of the <code>@init</code> categories can take more data.
 However check what columns are expected and in what order.</p>             </td>             <td class="code">               <div class="highlight"><pre><span class="nv">more = further: </span><span class="p">[]</span></pre></div>             </td>           </tr>                               <tr id="section-3">             <td class="docs">               <div class="pilwrap">                 <a class="pilcrow" href="#section-3">&#182;</a>               </div>               <p>These are objects above 10K, which need their Swiss Ephemeris IDs adjusted.
-None of them have unicode symbols.  That's the empty string being pushed.</p>             </td>             <td class="code">               <div class="highlight"><pre><span class="k">for</span> <span class="nx">o</span> <span class="k">in</span> <span class="p">[</span>
-  <span class="p">[</span> <span class="mi">128</span><span class="p">,</span>    <span class="s2">&quot;Nemesis&quot;</span><span class="p">]</span>
+None of them have unicode symbols.  That's the empty string being pushed.
+The Wikipedia IDs are predictable so far - check new entries, just in case...</p>             </td>             <td class="code">               <div class="highlight"><pre><span class="k">for</span> <span class="nx">o</span> <span class="k">in</span> <span class="p">[</span>
+  <span class="p">[</span> <span class="mi">5145</span><span class="p">,</span>   <span class="s2">&quot;Pholus&quot;</span><span class="p">]</span>
   <span class="p">[</span> <span class="mi">7066</span><span class="p">,</span>   <span class="s2">&quot;Nessus&quot;</span><span class="p">]</span>
   <span class="p">[</span> <span class="mi">20000</span><span class="p">,</span>  <span class="s2">&quot;Varuna&quot;</span><span class="p">]</span>
+  <span class="p">[</span> <span class="mi">28978</span><span class="p">,</span>  <span class="s2">&quot;Ixion&quot;</span><span class="p">]</span>
+  <span class="p">[</span> <span class="mi">38628</span><span class="p">,</span>  <span class="s2">&quot;Huya&quot;</span><span class="p">]</span>
   <span class="p">[</span> <span class="mi">50000</span><span class="p">,</span>  <span class="s2">&quot;Quaoar&quot;</span><span class="p">]</span>
   <span class="p">[</span> <span class="mi">90377</span><span class="p">,</span>  <span class="s2">&quot;Sedna&quot;</span><span class="p">]</span>
+  <span class="p">[</span> <span class="mi">90482</span><span class="p">,</span>  <span class="s2">&quot;Orcus&quot;</span><span class="p">]</span>
   <span class="p">[</span> <span class="mi">136108</span><span class="p">,</span> <span class="s2">&quot;Haumea&quot;</span><span class="p">]</span>
   <span class="p">[</span> <span class="mi">136199</span><span class="p">,</span> <span class="s2">&quot;Eris&quot;</span><span class="p">]</span>
   <span class="p">[</span> <span class="mi">136472</span><span class="p">,</span> <span class="s2">&quot;Makemake&quot;</span><span class="p">]</span>
 <span class="p">]</span>
-  <span class="nx">o</span><span class="p">.</span><span class="nx">push</span> <span class="s2">&quot;&quot;</span>
+  <span class="nx">o</span><span class="p">.</span><span class="nx">push</span> <span class="s2">&quot;&quot;</span> <span class="c1"># Unicode symbol</span>
+  <span class="nx">o</span><span class="p">.</span><span class="nx">push</span> <span class="s2">&quot;#{o[0]}_#{o[1]}&quot;</span> <span class="c1"># Wikipedia ID</span>
   <span class="nx">o</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+=</span> <span class="mi">10000</span>
   <span class="nx">more</span><span class="p">.</span><span class="nx">further</span><span class="p">.</span><span class="nx">push</span> <span class="nx">o</span>
 
