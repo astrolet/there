@@ -9,7 +9,6 @@ more = further: []
 # These are objects above 10K, which need their Swiss Ephemeris IDs adjusted.
 # None of them have unicode symbols.  That's the empty string being pushed.
 for o in [
-  [ 128,    "Nemesis"]
   [ 7066,   "Nessus"]
   [ 20000,  "Varuna"]
   [ 50000,  "Quaoar"]
