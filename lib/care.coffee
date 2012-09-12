@@ -1,5 +1,9 @@
-# Used by lin's `Ensemble` for localization.
-# See `polyglot` from upon for details about the data format.
+# Used by [lin](http://astrolet.github.com/lin)'s
+# [`Ensemble`](http://astrolet.github.com/lin/annotations/ensemble.html)
+# for localization.
+
+# See [`polyglot`](http://astrolet.github.com/upon/annotations/polyglot.html)
+# from [upon](http://astrolet.github.com/upon) for details about the data format.
 
 module.exports =
 
