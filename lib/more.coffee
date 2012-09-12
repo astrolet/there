@@ -10,10 +10,14 @@ more = further: []
 # None of them have unicode symbols.  That's the empty string being pushed.
 # The Wikipedia IDs are predictable so far - check new entries, just in case...
 for o in [
+  [ 5145,   "Pholus"]
   [ 7066,   "Nessus"]
   [ 20000,  "Varuna"]
+  [ 28978,  "Ixion"]
+  [ 38628,  "Huya"]
   [ 50000,  "Quaoar"]
   [ 90377,  "Sedna"]
+  [ 90482,  "Orcus"]
   [ 136108, "Haumea"]
   [ 136199, "Eris"]
   [ 136472, "Makemake"]
