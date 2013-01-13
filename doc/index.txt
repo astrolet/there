@@ -1,8 +1,10 @@
 # annotations
 care(3)             annotations/care
 more(3)             annotations/more
+polyglot(3)         annotations/polyglot
 
 # external manuals
 gravity(6)          http://astrolet.github.com/sin
 Index(7)            http://astrolet.github.com/there
 Base(7)             http://astrolin.com/to/there
+

@@ -12,6 +12,7 @@
 
 * more(3)
 * care(3)
+* polyglot(3)
 
 Part of how we claim to add `more` stuff
 to our vision of the Cosmos, and

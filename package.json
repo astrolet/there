@@ -15,7 +15,10 @@
 , "contributors": []
 , "directories": { "lib": "./lib" }
 , "main": "index"
-, "dependencies": { "coffee-script": "*" }
+, "dependencies":
+  { "coffee-script": "*"
+  , "underscore": "*"
+  }
 , "devDependencies":
   { "eyes": "*"
   , "docco": "*"
