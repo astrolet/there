@@ -1,8 +1,5 @@
 # there -- meanwhile call it stuff
 
-
-## WHAT
-
 >     to find
 >     there is
 >     some matter
@@ -10,6 +7,15 @@
 >     that matters
 >     out there
 >     for us
+
+## ABOUT
+
+* more(3)
+* care(3)
+
+Part of how we claim to add `more` stuff
+to our vision of the Cosmos, and
+name anything with obvious `care`.
 
 
 ## LAW
@@ -21,7 +27,7 @@ For more information, see <http://unlicense.org/> or the accompanying
 
 ## ALSO
 
-care(3), more(3), gravity(6)
+gravity(6)
 
 
 ## HOME
