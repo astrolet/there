@@ -1,15 +1,22 @@
 # there -- meanwhile call it stuff
 
+>     to find
+>     there is
+>     some matter
+>     supposedly
+>     that matters
+>     out there
+>     for us
 
-## WHAT
+## ABOUT
 
-    to find
-    there is
-    some matter
-    supposedly
-    that matters
-    out there
-    for us
+* more(3)
+* care(3)
+* polyglot(3)
+
+Part of how we claim to add `more` stuff
+to our vision of the Cosmos, and
+name anything with obvious `care`.
 
 
 ## LAW
@@ -21,7 +28,7 @@ For more information, see <http://unlicense.org/> or the accompanying
 
 ## ALSO
 
-care(3), more(3), gravity(6)
+gravity(6)
 
 
 ## HOME
